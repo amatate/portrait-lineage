@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "family_id": null,
+  "candidate_id": null,
+  "image_path": null,
+  "image_sha256": null,
+  "actual_request_path": null,
+  "adult_identity_observations": [],
+  "child_observations": [],
+  "child_styling_observations": [],
+  "gaze_and_expression_observations": [],
+  "sibling_similarity": [],
+  "sibling_differences": [],
+  "composition_issues": [],
+  "unrealized_intentions": [],
+  "assistant_verdict": null,
+  "user_feedback": null,
+  "accepted_by_user": null,
+  "acceptance_quote": null,
+  "next_iteration": null,
+  "character_decisions": [
+    {
+      "child_id": "child-1",
+      "proposed_name": null,
+      "image_accepted": null,
+      "name_accepted": null,
+      "acceptance_quote": null,
+      "profile_path": null
+    },
+    {
+      "child_id": "child-2",
+      "proposed_name": null,
+      "image_accepted": null,
+      "name_accepted": null,
+      "acceptance_quote": null,
+      "profile_path": null
+    }
+  ],
+  "facial_checks": [
+    {
+      "child_id": "child-1",
+      "source_person_id": "P1",
+      "reference_id": null,
+      "region": null,
+      "target": null,
+      "visible_observation": null,
+      "verdict": null,
+      "uncertainty": null
+    },
+    {
+      "child_id": "child-1",
+      "source_person_id": "P2",
+      "reference_id": null,
+      "region": null,
+      "target": null,
+      "visible_observation": null,
+      "verdict": null,
+      "uncertainty": null
+    },
+    {
+      "child_id": "child-2",
+      "source_person_id": "P1",
+      "reference_id": null,
+      "region": null,
+      "target": null,
+      "visible_observation": null,
+      "verdict": null,
+      "uncertainty": null
+    },
+    {
+      "child_id": "child-2",
+      "source_person_id": "P2",
+      "reference_id": null,
+      "region": null,
+      "target": null,
+      "visible_observation": null,
+      "verdict": null,
+      "uncertainty": null
+    }
+  ],
+  "photo_style_check": {
+    "requested": null,
+    "observed": null,
+    "pose_and_gaze_observations": [],
+    "verdict": null,
+    "uncertainty": null
+  },
+  "local_edit_check": {
+    "base_image_path": null,
+    "change_target": null,
+    "observed_change": null,
+    "preserved_items": [],
+    "unintended_changes": [],
+    "verdict": null
+  }
+}

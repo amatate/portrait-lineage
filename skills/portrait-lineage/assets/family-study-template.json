@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "family_id": "",
+  "status": "observed_draft",
+  "guidance_mode": "visual_first",
+  "output_subjects": "family",
+  "source_reference_ids": [],
+  "people": [
+    {
+      "id": "P1",
+      "reference_id": "",
+      "selector": "原始参考中的左侧成人",
+      "identity_lock": "",
+      "uncertain_features": []
+    },
+    {
+      "id": "P2",
+      "reference_id": "",
+      "selector": "原始参考中的右侧成人",
+      "identity_lock": "",
+      "uncertain_features": []
+    }
+  ],
+  "children": [
+    {
+      "id": "child-1",
+      "age": 6,
+      "presentation": "男孩",
+      "reference_people": [
+        "P1",
+        "P2"
+      ],
+      "visual_brief": "",
+      "styling_note": "按当前发质选择普通剪裁或扎法；写明顶部体积、刘海或分缝、少量局部散发，干净日常，不写成刻意造型的凌乱",
+      "expression_note": "视线有符合具体活动的落点，眼周和嘴角协调；保留眼形，与其他人物的动作和笑意不必同步",
+      "facial_links": [
+        {
+          "source_person_id": "P1",
+          "reference_id": "",
+          "region": "",
+          "observed_cue": "",
+          "age_adaptation": "",
+          "check_target": ""
+        },
+        {
+          "source_person_id": "P2",
+          "reference_id": "",
+          "region": "",
+          "observed_cue": "",
+          "age_adaptation": "",
+          "check_target": ""
+        }
+      ]
+    },
+    {
+      "id": "child-2",
+      "age": 4,
+      "presentation": "女孩",
+      "reference_people": [
+        "P1",
+        "P2"
+      ],
+      "visual_brief": "",
+      "styling_note": "按当前发质选择普通剪裁或扎法；写明顶部体积、刘海或分缝、少量局部散发，干净日常，不写成刻意造型的凌乱",
+      "expression_note": "视线有符合具体活动的落点，眼周和嘴角协调；保留眼形，与其他人物的动作和笑意不必同步",
+      "facial_links": [
+        {
+          "source_person_id": "P1",
+          "reference_id": "",
+          "region": "",
+          "observed_cue": "",
+          "age_adaptation": "",
+          "check_target": ""
+        },
+        {
+          "source_person_id": "P2",
+          "reference_id": "",
+          "region": "",
+          "observed_cue": "",
+          "age_adaptation": "",
+          "check_target": ""
+        }
+      ]
+    }
+  ],
+  "childhood_binding": "跨年龄逐人对应尚未确认；如有童年图只作同组儿童比例参考，不自行识别配对。",
+  "sibling_shared_trait": "",
+  "sibling_difference": "",
+  "scene": "",
+  "composition": "横向四人半身近景，四张脸清楚，处于相近焦平面，普通衣着",
+  "test_objective": "",
+  "user_acceptance": null,
+  "reference_usage": [],
+  "scene_mode": "face_comparison"
+}

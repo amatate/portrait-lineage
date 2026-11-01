@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "id": "character-YYYYMMDD-001",
+  "version": 1,
+  "display_name": "待确认昵称",
+  "aliases": [],
+  "age_years": null,
+  "name_review": {"status": "proposed", "proposed_by": "assistant", "confirmed_by": null, "note": ""},
+  "guidance_mode": "visual_first",
+  "kind": "real_person",
+  "status": "draft",
+  "permission": {"reference_use": false, "note": "", "publication": {"status": "not_requested", "allowed_reference_ids": [], "allowed_names": [], "note": ""}},
+  "review": {"confirmed_by": null, "note": ""},
+  "master_reference_id": "a-front",
+  "identity_views": {"status": "pending", "reference_ids": [], "approved_reference_ids": [], "confirmed_by": null, "note": ""},
+  "references": [
+    {"id": "a-front", "path": "../references/a-front.jpg", "role": "current_photo", "selector": "图中唯一人物；合照请改为明确位置", "note": "用户提供的正面照片"}
+  ],
+  "traits": {
+    "outline": {"description": "", "evidence_ids": [], "anchor": false, "age_adaptation": ""},
+    "brow_eye": {"description": "", "evidence_ids": [], "anchor": false, "age_adaptation": ""},
+    "nose": {"description": "", "evidence_ids": [], "anchor": false, "age_adaptation": ""},
+    "mouth_smile": {"description": "", "evidence_ids": [], "anchor": false, "age_adaptation": ""}
+  },
+  "appearance_notes": "发型、妆容、眼镜、表情、光照与结构特征分开记录",
+  "lineage": null
+}

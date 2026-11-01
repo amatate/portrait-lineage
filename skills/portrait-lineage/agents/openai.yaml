@@ -1,0 +1,4 @@
+interface:
+  display_name: "相貌继承实验室"
+  short_description: "人物建档与孩子命名，按名字复用角色、成长和创作家庭照，整理小红书草稿"
+  default_prompt: "使用 $portrait-lineage 导入这些人像，提出昵称并生成正侧面参考卡供我确认，再组合创作虚构孩子。"

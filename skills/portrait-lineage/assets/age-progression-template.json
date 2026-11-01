@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "operation": {"years": 10},
+  "characters": [
+    {
+      "name": "小满",
+      "source_mode": "approved_profile",
+      "selector": "原主图中的左侧孩子",
+      "identity_notes": []
+    },
+    {
+      "name": "小夏",
+      "character_id": "candidate-demo-02",
+      "source_mode": "selected_candidate",
+      "source_age": 4,
+      "age_note": "替换为用户设定或原生成方案中的年龄依据",
+      "selection_note": "替换为用户指定本轮哪张候选用于成长的说明；不是认可记录",
+      "reference": {"path": "runs/example/family.png", "selector": "前排右侧孩子"},
+      "identity_notes": []
+    }
+  ]
+}

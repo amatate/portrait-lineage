@@ -1,0 +1,12 @@
+portrait-data/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.env.*
+!.env.example
+.venv/
+dist/
+*.zip
+.coverage
+.pytest_cache/

@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "candidate_id": null,
+  "image_path": null,
+  "image_sha256": null,
+  "prompt_path": null,
+  "tool": null,
+  "model_reported_by_tool": null,
+  "image_seed": null,
+  "elapsed_seconds": null,
+  "cost": null,
+  "assistant_observation": {
+    "visible_traits_from_a": [],
+    "visible_traits_from_b": [],
+    "unrealized_intentions": [],
+    "age_appropriate": null,
+    "adult_face_scaled_down": null,
+    "single_source_copy": null
+  },
+  "user_feedback": null,
+  "accepted_by_user": null,
+  "acceptance_quote": null,
+  "new_profile_path": null,
+  "proposed_character_name": null,
+  "name_confirmed_by_user": null,
+  "name_acceptance_quote": null,
+  "identity_view_review_path": null,
+  "criteria_checks": [],
+  "photo_style_check": {
+    "requested": null,
+    "observed": null,
+    "verdict": null,
+    "uncertainty": null
+  },
+  "local_edit_check": {
+    "base_image_path": null,
+    "change_target": null,
+    "observed_change": null,
+    "preserved_items": [],
+    "unintended_changes": [],
+    "verdict": null
+  }
+}
